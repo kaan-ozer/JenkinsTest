@@ -46,6 +46,20 @@
                     </execution>
                 </executions>
             </plugin>
+                 <build>
+  
+        <plugin>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-maven-plugin</artifactId>
+            <version>4.2.0</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>spotbugs</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
 
         </plugins>
     </build>
