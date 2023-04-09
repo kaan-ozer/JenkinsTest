@@ -57,6 +57,15 @@
              <version>4.7.3</version>
              <type>pom</type>
          </dependency>
+             
+             <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs -->
+         <dependency>
+             <groupId>com.github.spotbugs</groupId>
+             <artifactId>spotbugs</artifactId>
+             <version>4.2.0</version>
+             <type>pom</type>
+         </dependency>
+
 
 
          <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-annotations -->
