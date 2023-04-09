@@ -63,13 +63,7 @@
         </plugins>
     </build>
     <dependencies>
-             <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs -->
-         <dependency>
-             <groupId>com.github.spotbugs</groupId>
-             <artifactId>spotbugs</artifactId>
-             <version>4.7.3</version>
-             <type>pom</type>
-         </dependency>
+    
              
              <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs -->
          <dependency>
@@ -81,12 +75,6 @@
 
 
 
-         <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-annotations -->
-         <dependency>
-             <groupId>com.github.spotbugs</groupId>
-             <artifactId>spotbugs-annotations</artifactId>
-             <version>4.7.3</version>
-         </dependency>
-
+         
     </dependencies>
 </project>
