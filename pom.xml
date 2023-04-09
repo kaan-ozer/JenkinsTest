@@ -21,10 +21,38 @@
          <properties>
 		<maven.spotbugs.version>4.1.4</maven.spotbugs.version>
 	</properties>
-
-	<build>
-		<plugins>
-			<!-- enable spotbugs code analysis -->
+	
+	 <build>
+        <extensions>
+            <extension>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.4.1.Final</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.2.0</version>
+                <executions>
+                    <execution>
+                    <goals>
+                        <goal>spotbugs</goal>
+                    </goals>
+                    </execution>
+                </executions>
+            </plugin>
+       
+		<!-- enable spotbugs code analysis -->
 			<plugin>
 				<groupId>com.github.spotbugs</groupId>
 				<artifactId>spotbugs-maven-plugin</artifactId>
@@ -46,7 +74,10 @@
 					</execution>
 				</executions>
 			</plugin>
-		</plugins>
-	</build>
-   
+    
+
+        </plugins>
+    </build>
+
+
 </project>
