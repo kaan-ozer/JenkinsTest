@@ -63,9 +63,10 @@
          </dependency>
 
                       <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-annotations -->
+                 <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-maven-plugin -->
          <dependency>
              <groupId>com.github.spotbugs</groupId>
-             <artifactId>spotbugs-annotations</artifactId>
+             <artifactId>spotbugs-maven-plugin</artifactId>
              <version>4.2.0</version>
          </dependency>
 
