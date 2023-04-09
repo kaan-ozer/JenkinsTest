@@ -39,19 +39,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>com.github.spotbugs</groupId>
-                <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.2.0</version>
-                <executions>
-                    <execution>
-                    <goals>
-                        <goal>spotbugs</goal>
-                    </goals>
-                    </execution>
-                </executions>
-            </plugin>
-       
+           
 		<!-- enable spotbugs code analysis -->
 			<plugin>
 				<groupId>com.github.spotbugs</groupId>
